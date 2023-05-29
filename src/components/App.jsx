@@ -1,7 +1,7 @@
 import React from "react";
-import Statistics from "./Feedback/Statistics";
+// import Statistics from "./Feedback/Statistics";
 import FeedbackOptions from './Feedback/FeedbackOptions'
-import Section from "./Feedback/Section";
+// import Section from "./Feedback/Section";
 
 export const App = () => {
   return (
