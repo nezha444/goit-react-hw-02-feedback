@@ -1,3 +1,8 @@
+import React from "react";
+import Statistics from "./Feedback/Statistics";
+import FeedbackOptions from './Feedback/FeedbackOptions'
+import Section from "./Feedback/Section";
+
 export const App = () => {
   return (
     <div
@@ -10,7 +15,10 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+    
+      {/* <Section title='Please leave feedback'></Section>
+      <Section titla='Statistics'></Section> */}
+    <FeedbackOptions></FeedbackOptions>
     </div>
   );
 };
