@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Notification from './Notification';
+import React from 'react';
 
-export default class Statistics extends Component {
-  render() {
-    const { good, neutral, bad, total, positivePercentage } = this.props;
+
+export const Statistics = ( { good, neutral, bad, total, positivePercentage } ) => {
     return (
       <>
         <ul>
@@ -16,4 +14,5 @@ export default class Statistics extends Component {
       </>
     );
   }
-}
+
+
